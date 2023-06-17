@@ -11,10 +11,77 @@
     color: white;
     background-color: blue;
     font-size: 50px;
-    position: fixed;
     text-align: right;
     position: absolute;
-    top: 20px;
+    top: 80px;
     right: 20px;
     margin: 30px;
+}
+
+/* div */
+
+
+.building-div {
+    position: relative;
+    display: inline-block;
+
+}
+.building-t {
+    position: absolute;
+    bottom: 0px;
+    background-color: rgb(255, 255, 255, 75%);
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+.building {
+    height: 320px;
+    width: 320px;
+}
+.glass-div {
+    position: relative;
+    display: inline-block;
+}
+.glass-t {
+    position: absolute;
+    bottom: 0px;
+    background-color: rgb(255, 255, 255, 75%);
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.glass {
+    height: 320px;
+    width: 320px;
+}
+.construction-div {
+    position: relative;
+    display: inline-block;
+}
+.construction-t {
+    position: absolute;
+    bottom: 0px;
+    background-color: rgb(255, 255, 255, 75%);
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.construction {
+    height: 320px;
+    width: 320px;
+}
+.all {
+    text-align: center;
+    
+}
+.other {
+    text-align: right;
+    margin-right: 40px;
+    font-size: 20px;
 }
